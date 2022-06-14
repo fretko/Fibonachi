@@ -8,4 +8,4 @@ while krug!=n:
     spisok=spisok.replace("m", '%temp%')
     spisok=spisok.replace('S', 'S'+'m'*k)
     spisok=spisok.replace('%temp%','S')
-print(spisok)
+print(len(spisok))
